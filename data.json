@@ -1,0 +1,27 @@
+{
+  "ToonYou": {
+    "base": "",
+    "path": "models/DreamBooth_LoRA/toonyou_beta3.safetensors",
+    "motion_module": [
+      "models/Motion_Module/mm_sd_v14.ckpt",
+      "models/Motion_Module/mm_sd_v15.ckpt"
+    ],
+    "seed": [
+      10788741199826055526,
+      6520604954829636163,
+      6519455744612555650,
+      16372571278361863751
+    ],
+    "steps": 25,
+    "guidance_scale": 7.5,
+    "prompt": [
+      "monkey saying hi, nature, 1 monkey, solo, smiling"
+    ],
+    "n_prompt": [
+      "",
+      "badhandv4,easynegative,ng_deepnegative_v1_75t,verybadimagenegative_v1.3, bad-artist, bad_prompt_version2-neg, teeth",
+      "",
+      ""
+    ]
+  }
+}
